@@ -1,0 +1,24 @@
+/** Grocery list: 
+Bananas (4)
+Peanut Butter (1)
+Dark Chocolate Bars (2)
+**/
+
+CREATE TABLE groceries (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER );
+
+INSERT INTO groceries VALUES (1, "Bananas", 4);
+INSERT INTO groceries VALUES (2, "Peanut Butter", 1);
+INSERT INTO groceries VALUES (3, "Dark chocolate bars", 2);
+SELECT * FROM groceries;
+
+/** Games list: 
+Fornite (Animated)
+CSGO (First person shooter)
+Runescape (MMORPG)
+**/
+CREATE TABLE games (id INTEGER PRIMARY KEY, name TEXT, kind TEXT);
+
+INSERT INTO games VALUES (1, "Fortnite", "Animated");
+INSERT INTO games VALUES (2, "CSGO", "First Person Shooter");
+INSERT INTO games VALUES (3, "Runescape", "MMORPG");
+SELECT * FROM games;
